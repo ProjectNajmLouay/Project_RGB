@@ -3,6 +3,11 @@ function generate_rgb(){
 
 } 
 
+$("#reset").click(function(){
+    $(".colors").css("color","rgb"+generate_rgb())
+  })
+
+$("header").css("color","rgb"+generate_rgb()) 
 
 
-$("#title").css("color",generate_rgb())
+$("#color2").css("color","black") 
