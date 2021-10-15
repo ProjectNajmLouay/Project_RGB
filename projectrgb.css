@@ -1,0 +1,58 @@
+body {
+  background: url("https://cdna.artstation.com/p/assets/images/images/018/519/340/original/martin-m-barbudo-interiorbar-gif-02.gif?1559679760")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#text {
+  text-shadow: rgb(131, 28, 226);
+  background-color: rgba(250, 222, 215, 0.534);
+  font-size: 50px;
+  margin: 0 auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 20px;
+}
+#n1 {
+  font-size: 110px;
+  margin: 0 auto;
+  width: 30px;
+}
+#n2 {
+  font-size: 110px;
+  margin: 0 auto;
+  width: 30px;
+}
+#n3 {
+  font-size: 110px;
+  margin: 0 auto;
+  width: 30px;
+}
+#n4 {
+  font-size: 110px;
+  margin: 0 auto;
+  width: 30px;
+}
+#n5 {
+  font-size: 110px;
+  margin: 0 auto;
+  width: 30px;
+}
+#n6 {
+  font-size: 110px;
+  margin: 0 auto;
+  width: 30px;
+}
+#reset {
+  background-color: #4caf50; /* Green */
+  border: blueviolet;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  float: left;
+}
