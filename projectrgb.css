@@ -1,0 +1,95 @@
+/* some css for the body */
+body {
+  background: url("https://cdna.artstation.com/p/assets/images/images/018/519/340/original/martin-m-barbudo-interiorbar-gif-02.gif?1559679760")
+    no-repeat center center fixed;
+  color: rgba(255, 0, 0, 0.726);
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* some css for the text class */
+#text {
+  text-shadow: rgba(216, 125, 97, 0.568);
+  font-size: 60px;
+  margin: 0 auto;
+  width: 50%;
+
+  padding: 20px;
+}
+/* some css for the numbers hint:from n1..6 WITH THE SAME css */
+#n1 {
+  font-size: 90px;
+  margin: 0 auto;
+  width: 30px;
+}
+#n2 {
+  font-size: 90px;
+  margin: 0 auto;
+  width: 30px;
+}
+#n3 {
+  font-size: 90px;
+  margin: 0 auto;
+  width: 30px;
+}
+#n4 {
+  font-size: 90px;
+  margin: 0 auto;
+  width: 30px;
+}
+#n5 {
+  font-size: 90px;
+  margin: 0 auto;
+  width: 30px;
+}
+#n6 {
+  font-size: 90px;
+  margin: 0 auto;
+  width: 30px;
+}
+/* css for the css button */
+#reset {
+  background-color: #4caf50;
+
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  float: left;
+}
+#dagueza {
+  font-size: 65px;
+  margin: 0 auto;
+  width: 111px;
+}
+#RGBCode {
+  text-shadow: #7a1849b6;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  font-size: 60px;
+}
+#RGBCode:hover {
+  box-shadow: inset 333px 0 0b 0 #0dbd48;
+}
+#submitt {
+  font-size: 30px;
+}
+#submitt:hover {
+  box-shadow: inset 3333px 0 0b 0 #0d59bd;
+}
+#rgb {
+  text-shadow: rgba(216, 125, 97, 0.568);
+  font-size: 60px;
+  margin: 0 auto;
+  width: 50%;
+}
+#title {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
