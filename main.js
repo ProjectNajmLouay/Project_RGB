@@ -1,7 +1,11 @@
 function generate_rgb(){
-    return '('+ Math.floor(Math.random()*266)+ "," + Math.floor(Math.random()*266)+" ," + Math.floor(Math.random()*266) + " )"
+    return '('+ Math.floor(Math.random()*266)+
+     "," + Math.floor(Math.random()*266)+" ," +
+      Math.floor(Math.random()*266) + " )"
 
 } 
+ 
+
   var arrRGB = [] ;
 $("#reset").click(function(){
      arrRGB = [] 
@@ -40,13 +44,34 @@ $("#reset").click(function(){
     arrRGB.push(guess6)
     $("#color6").css("color","rgb"+guess6)
   })
+  var s7i7;
+ var reb7 = false
+ var dgueza ;
+ $("#submitt").click(function(){
+  dgueza = document.getElementById("dagueza").value
+})
 
- 
  $("#reset").click(function(){
   console.log(arrRGB)
   })
- 
 
-$("header").css("color","rgb"+generate_rgb()) 
+  $("#reset").click(function(){
+    s7i7= Math.floor(Math.random()*6) ;
+    console.log(s7i7+1) 
+     
+
+   
+  
+      $("#RGBCode").text(arrRGB[s7i7]);
+  
+    }) 
+    if ( dgueza == s7i7 +1){
+      reb7 = true
+     }
+  
+
+   
+
+
 
 
