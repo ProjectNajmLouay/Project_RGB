@@ -46,6 +46,7 @@ $("#reset").click(function () {
   arrRGB.push(guess6);
   $("#color6").css("color", "rgb" + guess6);
 });
+var score = 0;
 var s7i7;
 var reb7 = false;
 var dgueza;
@@ -63,6 +64,16 @@ $("#reset").click(function () {
 
   $("#RGBCode").text(arrRGB[s7i7]);
 });
-if (dgueza == s7i7 + 1) {
-  reb7 = true;
-}
+
+$("#submitt").click(function () {
+  if (dgueza == s7i7 + 1) {
+    reb7 = true;
+    score++;
+    $("#RGBCode").text("YOU WIN !!!");
+    document.getElementById("WIN").play();
+    $("#score").text("SCORE : " + score);
+  } else {
+    $("#RGBCode").text("YOU LOSE !!! the right number was " + (s7i7 + 1));
+    document.getElementById("LOSE").play();
+  }
+});

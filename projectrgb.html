@@ -12,9 +12,11 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <header><h6 id="text">Guess the color with the given RGB</h6></header>
+  <header><div id="title"><h6 id="text">GuessThe color <h6 id="rgb"> with RGB code</h6></h6></header></div>
   <body>
-    <div id="RGBCode">this is the rgb</div>
+    <audio id="LOSE" src="youloose.mp3"></audio>
+    <audio id="WIN" src="you win.mp3"></audio>
+    <div id="RGBCode">CLICK RESET TO START</div>
     <input id="dagueza" type="number" />
     <button id="submitt">submit</button>
     <button id="reset" type="button">reset</button>
@@ -25,6 +27,7 @@
       <div id="color4"><h6 id="n4">4</h4></div>
       <div id="color5"><h6 id="n5">5</h6></div>
       <div id="color6"><h6 id="n6">6</h6></div>
+      <dic id="score"> Score : 0 </div>
     </div>
     <script src="projectrgb.js"></script>
   </body>
