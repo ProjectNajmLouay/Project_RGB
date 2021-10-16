@@ -2,7 +2,7 @@
 body {
   background: url("https://cdna.artstation.com/p/assets/images/images/018/519/340/original/martin-m-barbudo-interiorbar-gif-02.gif?1559679760")
     no-repeat center center fixed;
-  color: rgba(255, 0, 0, 0.726);
+  color: rgba(90, 200, 228, 0.726);
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -92,4 +92,7 @@ body {
   width: 50%;
   border: 3px solid green;
   padding: 10px;
+}
+#score {
+  font-size: xx-large;
 }
