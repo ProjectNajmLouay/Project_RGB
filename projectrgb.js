@@ -73,7 +73,7 @@ $("#submitt").click(function () {
     document.getElementById("WIN").play();
     $("#score").text("SCORE : " + score);
   } else {
-    $("#RGBCode").text("YOU LOSE !!! the right number was " + (s7i7 + 1));
+    $("#RGBCode").text("YOU LOSE!! the right color is" + (s7i7 + 1));
     document.getElementById("LOSE").play();
   }
 });
